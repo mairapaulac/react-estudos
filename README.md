@@ -25,9 +25,12 @@ function OlaMundo() {
   return (
     <h1>Olá, mundo!</h1>
   )
-}```
+}
+```
 
-``` export default OlaMundo;```
+```bash 
+export default OlaMundo;
+```
 
 ------------------------------------------------------------------------
 
@@ -39,7 +42,10 @@ projetos modernos em React.
 ### Passo 1: Criar o projeto
 
 No terminal, execute: 
-```npm create vite@latest nome-do-projeto```
+
+```bash
+npm create vite@latest nome-do-projeto
+```
 
 ### Passo 2: Escolher opções
 
@@ -49,11 +55,15 @@ No terminal, execute:
 
 ### Passo 3: Instalar dependências
 
-```cd nome-do-projeto npm install```
+```bash
+cd nome-do-projeto npm install
+```
 
 ### Passo 4: Rodar o projeto
 
-```npm run dev ```
+```bash 
+npm run dev
+```
 
 ------------------------------------------------------------------------
 
