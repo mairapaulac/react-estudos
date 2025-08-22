@@ -20,17 +20,14 @@ classes ES6 (menos usados atualmente).
 
 Exemplo de um componente funcional simples:
 
-\`\`\`jsx function OlaMundo() { return
-```{=html}
-<h1>
-```
-Olá, mundo!
-```{=html}
-</h1>
-```
-; }
+```jsx
+function OlaMundo() {
+  return (
+    <h1>Olá, mundo!</h1>
+  )
+}```
 
-export default OlaMundo; \`\`\`
+``` export default OlaMundo;```
 
 ------------------------------------------------------------------------
 
@@ -41,8 +38,8 @@ projetos modernos em React.
 
 ### Passo 1: Criar o projeto
 
-No terminal, execute: \`\`\`bash npm create vite@latest nome-do-projeto
-\`\`\`
+No terminal, execute: 
+```npm create vite@latest nome-do-projeto```
 
 ### Passo 2: Escolher opções
 
@@ -52,20 +49,14 @@ No terminal, execute: \`\`\`bash npm create vite@latest nome-do-projeto
 
 ### Passo 3: Instalar dependências
 
-\`\`\`bash cd nome-do-projeto npm install \`\`\`
+```cd nome-do-projeto npm install```
 
 ### Passo 4: Rodar o projeto
 
-\`\`\`bash npm run dev \`\`\`
-    
+```npm run dev ```
+
 ------------------------------------------------------------------------
 
-## Estrutura Básica do Projeto
-
-Após a criação, a estrutura será semelhante a:
-
-\`\`\` nome-do-projeto/ ├── index.html ├── package.json ├── src/ │ ├──
-App.jsx │ ├── main.jsx │ └── assets/ └── vite.config.js \`\`\`
 
 ------------------------------------------------------------------------
 
